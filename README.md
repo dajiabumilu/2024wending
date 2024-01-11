@@ -1,856 +1,142 @@
 proxies:
-  - {name: 1537, server: 198.2.213.169, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.54699295.xyz}}
-  - {name: 911, server: 45.58.174.40, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.56307081.xyz}}
-  - {name: 1629, server: 142.4.104.103, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.64102475.xyz}}
-  - {name: 919, server: 137.175.82.151, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.66699852.xyz}}
-  - {name: 1450, server: 137.175.18.181, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.87140386.xyz}}
-  - {name: 1685, server: 142.171.122.75, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.68841301.xyz}}
-  - {name: 1625, server: 142.4.98.11, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.60218590.xyz}}
-  - {name: 1535, server: 137.175.86.141, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.46074906.xyz}}
-  - {name: 709, server: 198.2.244.38, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.23365885.xyz}}
-  - {name: 1627, server: 142.4.105.1, port: 31000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.39281349.xyz}}
-  - {name: 1630, server: 142.4.110.58, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.80150658.xyz}}
-  - {name: 1653, server: 199.180.103.199, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.35688874.xyz}}
-  - {name: 857, server: 142.171.141.93, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/261217002001, ws-headers: {Host: www.95683672.xyz}}
-  - {name: 921, server: 198.2.222.73, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.62679611.xyz}}
-  - {name: 865, server: 142.171.237.214, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/261217002001, ws-headers: {Host: www.23168499.xyz}}
-  - {name: 1507, server: 192.74.237.57, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.51291807.xyz}}
-  - {name: 847, server: 142.4.101.5, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/261217002001, ws-headers: {Host: www.23494000.xyz}}
-  - {name: 1505, server: 107.148.202.180, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.32307443.xyz}}
-  - {name: 1681, server: 142.171.149.227, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.60988297.xyz}}
-  - {name: 1613, server: 199.188.110.123, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.49586262.xyz}}
-  - {name: 1454, server: 198.2.203.98, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.43537463.xyz}}
-  - {name: 1667, server: 137.175.32.129, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.50979398.xyz}}
-  - {name: 1534, server: 137.175.69.210, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.72649000.xyz}}
-  - {name: 1455, server: 38.48.181.241, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.95913008.xyz}}
-  - {name: 819, server: 137.175.96.23, port: 40000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/261217002001, ws-headers: {Host: www.20973848.xyz}}
-  - {name: 1682, server: 148.135.33.82, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.74353726.xyz}}
-  - {name: 880, server: 142.0.131.33, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.79302426.xyz}}
-  - {name: 1336, server: 38.40.158.245, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.88186618.xyz}}
-  - {name: 896, server: 142.0.128.139, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.18999379.xyz}}
-  - {name: 1620, server: 137.175.12.68, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.86052077.xyz}}
-  - {name: 917, server: 198.2.207.123, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.63763079.xyz}}
-  - {name: 1684, server: 148.135.9.252, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.47039800.xyz}}
-  - {name: 859, server: 74.48.120.4, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/261217002001, ws-headers: {Host: www.25848626.xyz}}
-  - {name: 1549, server: 137.175.22.146, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.82078541.xyz}}
-  - {name: 1470, server: 198.2.197.77, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.39619212.xyz}}
-  - {name: 1678, server: 148.135.9.244, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.73059090.xyz}}
-  - {name: 858, server: 74.48.156.194, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/261217002001, ws-headers: {Host: www.43622000.xyz}}
-  - {name: 874, server: 142.4.99.71, port: 30000, type: vmess, uuid: b65da4af-a12a-4a59-9316-4549e12ba62c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.78274451.xyz}}
-  - {name: 1506, server: 192.74.232.26, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.19401390.xyz}}
-  - {name: 1631, server: 142.4.116.177, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.96128725.xyz}}
-  - {name: 1633, server: 142.4.107.183, port: 40000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.98382183.xyz}}
-  - {name: 893, server: 192.74.243.49, port: 40000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.44509344.xyz}}
-  - {name: 887, server: 142.4.115.152, port: 31000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.13987826.xyz}}
-  - {name: 878, server: 142.0.130.70, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.30471929.xyz}}
-  - {name: 1679, server: 148.135.9.66, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.69555583.xyz}}
-  - {name: 1699, server: 142.171.79.10, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.32410592.xyz}}
-  - {name: 1463, server: 142.4.98.23, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.99555130.xyz}}
-  - {name: 850, server: 142.4.110.43, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.24364264.xyz}}
-  - {name: 1697, server: 148.135.38.42, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.71338766.xyz}}
-  - {name: 1453, server: 198.2.196.19, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.87569156.xyz}}
   - {name: 1676, server: 142.171.122.69, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.21463847.xyz}}
-  - {name: 1582, server: 142.4.112.138, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.18469970.xyz}}
-  - {name: 324, server: 23.225.33.168, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.32451992.xyz}}
-  - {name: 1694, server: 142.171.238.19, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.76482812.xyz}}
-  - {name: 1665, server: 137.175.4.59, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.54790250.xyz}}
-  - {name: 786, server: 198.2.244.4, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/261217002001, ws-headers: {Host: www.62735446.xyz}}
-  - {name: 1581, server: 108.186.116.173, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.71034070.xyz}}
-  - {name: 1502, server: 137.175.18.85, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.66273264.xyz}}
-  - {name: 519, server: 74.48.51.171, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/261217002001, ws-headers: {Host: www.37477768.xyz}}
-  - {name: 781, server: 142.4.118.123, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/261217002001, ws-headers: {Host: www.86477047.xyz}}
-  - {name: 1621, server: 142.4.103.177, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.84675006.xyz}}
-  - {name: 666, server: 156.225.67.133, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.69414502.xyz}}
-  - {name: 455, server: 198.2.193.147, port: 30000, type: vmess, uuid: 68d238ce-3ca1-46dc-b833-a0916c829ad3, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.28251658.xyz}}
-  - {name: 1656, server: 142.4.98.245, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.47643999.xyz}}
-  - {name: 827, server: 142.4.114.99, port: 40000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.11141292.xyz}}
-  - {name: 1683, server: 142.171.149.100, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.34333679.xyz}}
+  - {name: 1678, server: 148.135.9.244, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.73059090.xyz}}
+  - {name: 1679, server: 148.135.9.66, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.69555583.xyz}}
   - {name: 1680, server: 142.171.207.186, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.79166580.xyz}}
-  - {name: 864, server: 148.135.38.106, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/261217002001, ws-headers: {Host: www.13861936.xyz}}
+  - {name: 1682, server: 148.135.33.82, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.74353726.xyz}}
+  - {name: 1683, server: 142.171.149.100, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.34333679.xyz}}
+  - {name: 1684, server: 148.135.9.252, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.47039800.xyz}}
+  - {name: 1694, server: 142.171.238.19, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.76482812.xyz}}
   - {name: 1696, server: 142.171.61.106, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.88166954.xyz}}
-  - {name: 793, server: 198.2.202.210, port: 31000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/261217002001, ws-headers: {Host: www.72522209.xyz}}
-  - {name: 1689, server: 148.135.33.90, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.30994104.xyz}}
-  - {name: 1550, server: 137.175.22.132, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.84913025.xyz}}
-  - {name: 1650, server: 142.4.96.4, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.37511588.xyz}}
-  - {name: 801, server: 198.2.204.133, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.43444988.xyz}}
-  - {name: 824, server: 137.175.49.209, port: 50000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/261217002001, ws-headers: {Host: www.36443410.xyz}}
-  - {name: 795, server: 198.2.206.53, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/261217002001, ws-headers: {Host: www.66836245.xyz}}
-  - {name: 1700, server: 148.135.31.170, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.72672771.xyz}}
   - {name: 1698, server: 142.171.237.242, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.71532237.xyz}}
-  - {name: 1657, server: 107.148.198.163, port: 31000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.25261400.xyz}}
-  - {name: 594, server: 199.180.102.163, port: 31000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.88670867.xyz}}
-  - {name: 1585, server: 156.249.18.208, port: 40000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.54294122.xyz}}
-  - {name: 891, server: 45.58.174.243, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.60360138.xyz}}
-  - {name: 1443, server: 156.245.8.52, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.71310405.xyz}}
-  - {name: 1438, server: 156.245.8.180, port: 30000, type: vmess, uuid: 9549a2cf-129b-43a1-88db-ef7f648de74a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.13553832.xyz}}
-  - {name: 1435, server: 156.245.8.228, port: 30000, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.54241651.xyz}}
-  - {name: 1437, server: 45.199.138.227, port: 30000, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.56819546.xyz}}
-  - {name: 1434, server: 156.249.18.157, port: 30000, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.56510527.xyz}}
-  - {name: 691, server: 156.225.67.108, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.75544744.xyz}}
-  - {name: 1442, server: 156.249.18.74, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.11977475.xyz}}
-  - {name: 1436, server: 154.85.0.152, port: 30000, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.43747414.xyz}}
-  - {name: 422, server: 156.225.67.101, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.34668845.xyz}}
-  - {name: 689, server: 156.225.67.91, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.96586473.xyz}}
-  - {name: 595, server: 156.225.67.141, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.93989779.xyz}}
-  - {name: 1444, server: 156.225.67.214, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.93886997.xyz}}
-  - {name: 1440, server: 156.249.18.64, port: 31000, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.72281149.xyz}}
-  - {name: 871, server: 142.0.130.132, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.99391230.xyz}}
-  - {name: 1439, server: 156.225.67.210, port: 30000, type: vmess, uuid: 6fa560d4-35c5-4968-adfc-812c52878b84, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.47303496.xyz}}
-  - {name: 1433, server: 154.85.1.185, port: 30000, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.38858917.xyz}}
-  - {name: 1663, server: 137.175.4.42, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.83008320.xyz}}
-  - {name: 430, server: 156.225.67.71, port: 30000, type: vmess, uuid: 21155efd-8e29-43d2-95bc-fe3190ecb1c6, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.76788791.xyz}}
-  - {name: 1162, server: 156.245.8.96, port: 30000, type: vmess, uuid: bd249e37-7359-41ee-84a7-09e49e0ec5c4, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.47523375.xyz}}
-  - {name: 1419, server: 154.85.1.35, port: 30000, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.38562152.xyz}}
-  - {name: 651, server: 148.135.12.165, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/261217002001, ws-headers: {Host: www.15986187.xyz}}
-  - {name: 1445, server: 45.199.138.231, port: 40000, type: vmess, uuid: 6e79eea4-5f72-4683-ad0e-5339f013421b, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.19740716.xyz}}
-  - {name: 1333, server: 156.225.67.60, port: 30000, type: vmess, uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.92873889.xyz}}
-  - {name: 1666, server: 137.175.26.18, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.70173865.xyz}}
-  - {name: 423, server: 156.225.67.123, port: 30000, type: vmess, uuid: 3a3c8a9c-334e-4360-adb8-a80a57ddcbbf, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.45436752.xyz}}
-  - {name: 395, server: 45.58.150.94, port: 30000, type: vmess, uuid: 8a3dcaa7-41e1-46a2-9820-56912a8a8e9c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.34064258.xyz}}
-  - {name: 153, server: 45.58.152.85, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.90023912.xyz}}
-  - {name: 813, server: 154.84.1.117, port: 30000, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/261217002001, ws-headers: {Host: www.87967533.xyz}}
-  - {name: 184, server: 45.58.147.217, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.79400274.xyz}}
-  - {name: 147, server: 45.58.145.202, port: 30000, type: vmess, uuid: 55545f9e-a561-454a-8dc0-8bc110e6b1c9, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.51652109.xyz}}
-  - {name: 146, server: 45.58.153.26, port: 30000, type: vmess, uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.77935707.xyz}}
-  - {name: 894, server: 198.2.244.58, port: 31000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/080331123005, ws-headers: {Host: www.12005627.xyz}}
-  - {name: 1441, server: 45.199.138.185, port: 31000, type: vmess, uuid: 078eb24d-8d1d-4fbd-b914-ee58a897a35e, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.15697065.xyz}}
-  - {name: 1465, server: 142.0.131.71, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.67271089.xyz}}
-  - {name: 1677, server: 142.171.141.211, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.53649262.xyz}}
+  - {name: 1699, server: 142.171.79.10, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/353021140201, ws-headers: {Host: www.32410592.xyz}}
+  - {name: steelo LA, server: www.udacity.com, port: 2052, type: vmess, uuid: 0c940c39-763f-4e08-8d9b-e79985b06760, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /0c940c39-763f-4e08-8d9b-e79985b06760-vmess, ws-headers: {Host: bumilula.ayatzn.top}}
+  - {name: steelo TR, server: www.udacity.com, port: 2052, type: vmess, uuid: 97676b80-5c62-47ac-9fbe-78a027fc1d6e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /97676b80-5c62-47ac-9fbe-78a027fc1d6e-vmess, ws-headers: {Host: bumilutr.yunann.top}}
+  - {name: 🇨🇳 steelo TW, server: www.udacity.com, port: 2052, type: vmess, uuid: 0ad673a8-f897-4125-b7c1-0b90c63126a8, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /0ad673a8-f897-4125-b7c1-0b90c63126a8-vmess, ws-headers: {Host: tw.steelo.cloudns.biz}}
+  - {name: 🇭🇰 steelo HK, server: www.udacity.com, port: 2052, type: vmess, uuid: dde597bd-27cc-4328-98aa-0d01f8caf29d, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /dde597bd-27cc-4328-98aa-0d01f8caf29d-vmess, ws-headers: {Host: bumiluhk.yunann.top}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 1537
-      - 911
-      - 1629
-      - 919
-      - 1450
-      - 1685
-      - 1625
-      - 1535
-      - 709
-      - 1627
-      - 1630
-      - 1653
-      - 857
-      - 921
-      - 865
-      - 1507
-      - 847
-      - 1505
-      - 1681
-      - 1613
-      - 1454
-      - 1667
-      - 1534
-      - 1455
-      - 819
-      - 1682
-      - 880
-      - 1336
-      - 896
-      - 1620
-      - 917
-      - 1684
-      - 859
-      - 1549
-      - 1470
-      - 1678
-      - 858
-      - 874
-      - 1506
-      - 1631
-      - 1633
-      - 893
-      - 887
-      - 878
-      - 1679
-      - 1699
-      - 1463
-      - 850
-      - 1697
-      - 1453
       - 1676
-      - 1582
-      - 324
-      - 1694
-      - 1665
-      - 786
-      - 1581
-      - 1502
-      - 519
-      - 781
-      - 1621
-      - 666
-      - 455
-      - 1656
-      - 827
-      - 1683
+      - 1678
+      - 1679
       - 1680
-      - 864
+      - 1682
+      - 1683
+      - 1684
+      - 1694
       - 1696
-      - 793
-      - 1689
-      - 1550
-      - 1650
-      - 801
-      - 824
-      - 795
-      - 1700
       - 1698
-      - 1657
-      - 594
-      - 1585
-      - 891
-      - 1443
-      - 1438
-      - 1435
-      - 1437
-      - 1434
-      - 691
-      - 1442
-      - 1436
-      - 422
-      - 689
-      - 595
-      - 1444
-      - 1440
-      - 871
-      - 1439
-      - 1433
-      - 1663
-      - 430
-      - 1162
-      - 1419
-      - 651
-      - 1445
-      - 1333
-      - 1666
-      - 423
-      - 395
-      - 153
-      - 813
-      - 184
-      - 147
-      - 146
-      - 894
-      - 1441
-      - 1465
-      - 1677
+      - 1699
+      - steelo LA
+      - steelo TR
+      - 🇨🇳 steelo TW
+      - 🇭🇰 steelo HK
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 1537
-      - 911
-      - 1629
-      - 919
-      - 1450
-      - 1685
-      - 1625
-      - 1535
-      - 709
-      - 1627
-      - 1630
-      - 1653
-      - 857
-      - 921
-      - 865
-      - 1507
-      - 847
-      - 1505
-      - 1681
-      - 1613
-      - 1454
-      - 1667
-      - 1534
-      - 1455
-      - 819
-      - 1682
-      - 880
-      - 1336
-      - 896
-      - 1620
-      - 917
-      - 1684
-      - 859
-      - 1549
-      - 1470
-      - 1678
-      - 858
-      - 874
-      - 1506
-      - 1631
-      - 1633
-      - 893
-      - 887
-      - 878
-      - 1679
-      - 1699
-      - 1463
-      - 850
-      - 1697
-      - 1453
       - 1676
-      - 1582
-      - 324
-      - 1694
-      - 1665
-      - 786
-      - 1581
-      - 1502
-      - 519
-      - 781
-      - 1621
-      - 666
-      - 455
-      - 1656
-      - 827
-      - 1683
+      - 1678
+      - 1679
       - 1680
-      - 864
+      - 1682
+      - 1683
+      - 1684
+      - 1694
       - 1696
-      - 793
-      - 1689
-      - 1550
-      - 1650
-      - 801
-      - 824
-      - 795
-      - 1700
       - 1698
-      - 1657
-      - 594
-      - 1585
-      - 891
-      - 1443
-      - 1438
-      - 1435
-      - 1437
-      - 1434
-      - 691
-      - 1442
-      - 1436
-      - 422
-      - 689
-      - 595
-      - 1444
-      - 1440
-      - 871
-      - 1439
-      - 1433
-      - 1663
-      - 430
-      - 1162
-      - 1419
-      - 651
-      - 1445
-      - 1333
-      - 1666
-      - 423
-      - 395
-      - 153
-      - 813
-      - 184
-      - 147
-      - 146
-      - 894
-      - 1441
-      - 1465
-      - 1677
+      - 1699
+      - steelo LA
+      - steelo TR
+      - 🇨🇳 steelo TW
+      - 🇭🇰 steelo HK
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 1537
-      - 911
-      - 1629
-      - 919
-      - 1450
-      - 1685
-      - 1625
-      - 1535
-      - 709
-      - 1627
-      - 1630
-      - 1653
-      - 857
-      - 921
-      - 865
-      - 1507
-      - 847
-      - 1505
-      - 1681
-      - 1613
-      - 1454
-      - 1667
-      - 1534
-      - 1455
-      - 819
-      - 1682
-      - 880
-      - 1336
-      - 896
-      - 1620
-      - 917
-      - 1684
-      - 859
-      - 1549
-      - 1470
-      - 1678
-      - 858
-      - 874
-      - 1506
-      - 1631
-      - 1633
-      - 893
-      - 887
-      - 878
-      - 1679
-      - 1699
-      - 1463
-      - 850
-      - 1697
-      - 1453
       - 1676
-      - 1582
-      - 324
-      - 1694
-      - 1665
-      - 786
-      - 1581
-      - 1502
-      - 519
-      - 781
-      - 1621
-      - 666
-      - 455
-      - 1656
-      - 827
-      - 1683
+      - 1678
+      - 1679
       - 1680
-      - 864
+      - 1682
+      - 1683
+      - 1684
+      - 1694
       - 1696
-      - 793
-      - 1689
-      - 1550
-      - 1650
-      - 801
-      - 824
-      - 795
-      - 1700
       - 1698
-      - 1657
-      - 594
-      - 1585
-      - 891
-      - 1443
-      - 1438
-      - 1435
-      - 1437
-      - 1434
-      - 691
-      - 1442
-      - 1436
-      - 422
-      - 689
-      - 595
-      - 1444
-      - 1440
-      - 871
-      - 1439
-      - 1433
-      - 1663
-      - 430
-      - 1162
-      - 1419
-      - 651
-      - 1445
-      - 1333
-      - 1666
-      - 423
-      - 395
-      - 153
-      - 813
-      - 184
-      - 147
-      - 146
-      - 894
-      - 1441
-      - 1465
-      - 1677
+      - 1699
+      - steelo LA
+      - steelo TR
+      - 🇨🇳 steelo TW
+      - 🇭🇰 steelo HK
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 1537
-      - 911
-      - 1629
-      - 919
-      - 1450
-      - 1685
-      - 1625
-      - 1535
-      - 709
-      - 1627
-      - 1630
-      - 1653
-      - 857
-      - 921
-      - 865
-      - 1507
-      - 847
-      - 1505
-      - 1681
-      - 1613
-      - 1454
-      - 1667
-      - 1534
-      - 1455
-      - 819
-      - 1682
-      - 880
-      - 1336
-      - 896
-      - 1620
-      - 917
-      - 1684
-      - 859
-      - 1549
-      - 1470
-      - 1678
-      - 858
-      - 874
-      - 1506
-      - 1631
-      - 1633
-      - 893
-      - 887
-      - 878
-      - 1679
-      - 1699
-      - 1463
-      - 850
-      - 1697
-      - 1453
       - 1676
-      - 1582
-      - 324
-      - 1694
-      - 1665
-      - 786
-      - 1581
-      - 1502
-      - 519
-      - 781
-      - 1621
-      - 666
-      - 455
-      - 1656
-      - 827
-      - 1683
+      - 1678
+      - 1679
       - 1680
-      - 864
+      - 1682
+      - 1683
+      - 1684
+      - 1694
       - 1696
-      - 793
-      - 1689
-      - 1550
-      - 1650
-      - 801
-      - 824
-      - 795
-      - 1700
       - 1698
-      - 1657
-      - 594
-      - 1585
-      - 891
-      - 1443
-      - 1438
-      - 1435
-      - 1437
-      - 1434
-      - 691
-      - 1442
-      - 1436
-      - 422
-      - 689
-      - 595
-      - 1444
-      - 1440
-      - 871
-      - 1439
-      - 1433
-      - 1663
-      - 430
-      - 1162
-      - 1419
-      - 651
-      - 1445
-      - 1333
-      - 1666
-      - 423
-      - 395
-      - 153
-      - 813
-      - 184
-      - 147
-      - 146
-      - 894
-      - 1441
-      - 1465
-      - 1677
+      - 1699
+      - steelo LA
+      - steelo TR
+      - 🇨🇳 steelo TW
+      - 🇭🇰 steelo HK
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 1537
-      - 911
-      - 1629
-      - 919
-      - 1450
-      - 1685
-      - 1625
-      - 1535
-      - 709
-      - 1627
-      - 1630
-      - 1653
-      - 857
-      - 921
-      - 865
-      - 1507
-      - 847
-      - 1505
-      - 1681
-      - 1613
-      - 1454
-      - 1667
-      - 1534
-      - 1455
-      - 819
-      - 1682
-      - 880
-      - 1336
-      - 896
-      - 1620
-      - 917
-      - 1684
-      - 859
-      - 1549
-      - 1470
-      - 1678
-      - 858
-      - 874
-      - 1506
-      - 1631
-      - 1633
-      - 893
-      - 887
-      - 878
-      - 1679
-      - 1699
-      - 1463
-      - 850
-      - 1697
-      - 1453
       - 1676
-      - 1582
-      - 324
-      - 1694
-      - 1665
-      - 786
-      - 1581
-      - 1502
-      - 519
-      - 781
-      - 1621
-      - 666
-      - 455
-      - 1656
-      - 827
-      - 1683
+      - 1678
+      - 1679
       - 1680
-      - 864
+      - 1682
+      - 1683
+      - 1684
+      - 1694
       - 1696
-      - 793
-      - 1689
-      - 1550
-      - 1650
-      - 801
-      - 824
-      - 795
-      - 1700
       - 1698
-      - 1657
-      - 594
-      - 1585
-      - 891
-      - 1443
-      - 1438
-      - 1435
-      - 1437
-      - 1434
-      - 691
-      - 1442
-      - 1436
-      - 422
-      - 689
-      - 595
-      - 1444
-      - 1440
-      - 871
-      - 1439
-      - 1433
-      - 1663
-      - 430
-      - 1162
-      - 1419
-      - 651
-      - 1445
-      - 1333
-      - 1666
-      - 423
-      - 395
-      - 153
-      - 813
-      - 184
-      - 147
-      - 146
-      - 894
-      - 1441
-      - 1465
-      - 1677
+      - 1699
+      - steelo LA
+      - steelo TR
+      - 🇨🇳 steelo TW
+      - 🇭🇰 steelo HK
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 1537
-      - 911
-      - 1629
-      - 919
-      - 1450
-      - 1685
-      - 1625
-      - 1535
-      - 709
-      - 1627
-      - 1630
-      - 1653
-      - 857
-      - 921
-      - 865
-      - 1507
-      - 847
-      - 1505
-      - 1681
-      - 1613
-      - 1454
-      - 1667
-      - 1534
-      - 1455
-      - 819
-      - 1682
-      - 880
-      - 1336
-      - 896
-      - 1620
-      - 917
-      - 1684
-      - 859
-      - 1549
-      - 1470
-      - 1678
-      - 858
-      - 874
-      - 1506
-      - 1631
-      - 1633
-      - 893
-      - 887
-      - 878
-      - 1679
-      - 1699
-      - 1463
-      - 850
-      - 1697
-      - 1453
       - 1676
-      - 1582
-      - 324
-      - 1694
-      - 1665
-      - 786
-      - 1581
-      - 1502
-      - 519
-      - 781
-      - 1621
-      - 666
-      - 455
-      - 1656
-      - 827
-      - 1683
+      - 1678
+      - 1679
       - 1680
-      - 864
+      - 1682
+      - 1683
+      - 1684
+      - 1694
       - 1696
-      - 793
-      - 1689
-      - 1550
-      - 1650
-      - 801
-      - 824
-      - 795
-      - 1700
       - 1698
-      - 1657
-      - 594
-      - 1585
-      - 891
-      - 1443
-      - 1438
-      - 1435
-      - 1437
-      - 1434
-      - 691
-      - 1442
-      - 1436
-      - 422
-      - 689
-      - 595
-      - 1444
-      - 1440
-      - 871
-      - 1439
-      - 1433
-      - 1663
-      - 430
-      - 1162
-      - 1419
-      - 651
-      - 1445
-      - 1333
-      - 1666
-      - 423
-      - 395
-      - 153
-      - 813
-      - 184
-      - 147
-      - 146
-      - 894
-      - 1441
-      - 1465
-      - 1677
+      - 1699
+      - steelo LA
+      - steelo TR
+      - 🇨🇳 steelo TW
+      - 🇭🇰 steelo HK
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -873,123 +159,21 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 1537
-      - 911
-      - 1629
-      - 919
-      - 1450
-      - 1685
-      - 1625
-      - 1535
-      - 709
-      - 1627
-      - 1630
-      - 1653
-      - 857
-      - 921
-      - 865
-      - 1507
-      - 847
-      - 1505
-      - 1681
-      - 1613
-      - 1454
-      - 1667
-      - 1534
-      - 1455
-      - 819
-      - 1682
-      - 880
-      - 1336
-      - 896
-      - 1620
-      - 917
-      - 1684
-      - 859
-      - 1549
-      - 1470
-      - 1678
-      - 858
-      - 874
-      - 1506
-      - 1631
-      - 1633
-      - 893
-      - 887
-      - 878
-      - 1679
-      - 1699
-      - 1463
-      - 850
-      - 1697
-      - 1453
       - 1676
-      - 1582
-      - 324
-      - 1694
-      - 1665
-      - 786
-      - 1581
-      - 1502
-      - 519
-      - 781
-      - 1621
-      - 666
-      - 455
-      - 1656
-      - 827
-      - 1683
+      - 1678
+      - 1679
       - 1680
-      - 864
+      - 1682
+      - 1683
+      - 1684
+      - 1694
       - 1696
-      - 793
-      - 1689
-      - 1550
-      - 1650
-      - 801
-      - 824
-      - 795
-      - 1700
       - 1698
-      - 1657
-      - 594
-      - 1585
-      - 891
-      - 1443
-      - 1438
-      - 1435
-      - 1437
-      - 1434
-      - 691
-      - 1442
-      - 1436
-      - 422
-      - 689
-      - 595
-      - 1444
-      - 1440
-      - 871
-      - 1439
-      - 1433
-      - 1663
-      - 430
-      - 1162
-      - 1419
-      - 651
-      - 1445
-      - 1333
-      - 1666
-      - 423
-      - 395
-      - 153
-      - 813
-      - 184
-      - 147
-      - 146
-      - 894
-      - 1441
-      - 1465
-      - 1677
+      - 1699
+      - steelo LA
+      - steelo TR
+      - 🇨🇳 steelo TW
+      - 🇭🇰 steelo HK
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
