@@ -1,79 +1,38 @@
-proxies:
-  - {name: 🇭🇰 CXY HK, server: www.udemy.com, port: 2052, type: vmess, uuid: cecb25f2-b6e5-491a-9abd-f6e3d92fc191, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /cecb25f2-b6e5-491a-9abd-f6e3d92fc191-vmess, ws-headers: {Host: cengxunyunhk.rcaskm.mom}}
-  - {name: 🇰🇷 DCI KR, server: www.udemy.com, port: 2052, type: vmess, uuid: 6ab8e1f1-887b-476a-9118-c753007c909a, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /6ab8e1f1-887b-476a-9118-c753007c909a-vmess, ws-headers: {Host: dcikr.ayatzn.top}}
-  - {name: 🇭🇰 gouyun HK, server: www.udacity.com, port: 2052, type: vmess, uuid: 33f7529f-88c9-4a61-bad0-c8ec144693ec, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /33f7529f-88c9-4a61-bad0-c8ec144693ec-vmess, ws-headers: {Host: gouyunhk.ayatzn.top}}
-  - {name: 🇭🇰 steelo HK, server: www.udacity.com, port: 2052, type: vmess, uuid: dde597bd-27cc-4328-98aa-0d01f8caf29d, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /dde597bd-27cc-4328-98aa-0d01f8caf29d-vmess, ws-headers: {Host: bumiluhk.yunann.top}}
-  - {name: steelo LA, server: www.udacity.com, port: 2052, type: vmess, uuid: 0c940c39-763f-4e08-8d9b-e79985b06760, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /0c940c39-763f-4e08-8d9b-e79985b06760-vmess, ws-headers: {Host: bumilula.ayatzn.top}}
-  - {name: steelo TR, server: www.udacity.com, port: 2052, type: vmess, uuid: 97676b80-5c62-47ac-9fbe-78a027fc1d6e, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /97676b80-5c62-47ac-9fbe-78a027fc1d6e-vmess, ws-headers: {Host: bumilutr.yunann.top}}
+proxies: ~
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇭🇰 CXY HK
-      - 🇰🇷 DCI KR
-      - 🇭🇰 gouyun HK
-      - 🇭🇰 steelo HK
-      - steelo LA
-      - steelo TR
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 CXY HK
-      - 🇰🇷 DCI KR
-      - 🇭🇰 gouyun HK
-      - 🇭🇰 steelo HK
-      - steelo LA
-      - steelo TR
+      - DIRECT
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 CXY HK
-      - 🇰🇷 DCI KR
-      - 🇭🇰 gouyun HK
-      - 🇭🇰 steelo HK
-      - steelo LA
-      - steelo TR
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 CXY HK
-      - 🇰🇷 DCI KR
-      - 🇭🇰 gouyun HK
-      - 🇭🇰 steelo HK
-      - steelo LA
-      - steelo TR
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇭🇰 CXY HK
-      - 🇰🇷 DCI KR
-      - 🇭🇰 gouyun HK
-      - 🇭🇰 steelo HK
-      - steelo LA
-      - steelo TR
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇭🇰 CXY HK
-      - 🇰🇷 DCI KR
-      - 🇭🇰 gouyun HK
-      - 🇭🇰 steelo HK
-      - steelo LA
-      - steelo TR
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -96,12 +55,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 CXY HK
-      - 🇰🇷 DCI KR
-      - 🇭🇰 gouyun HK
-      - 🇭🇰 steelo HK
-      - steelo LA
-      - steelo TR
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
